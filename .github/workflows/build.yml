@@ -19,7 +19,7 @@ jobs:
           orgId: ${{ secrets.CONTRAST_ORGANIZATION_ID }}
           authHeader: ${{ secrets.CONTRAST_AUTH_HEADER }}
           apiUrl: ${{ secrets.CONTRAST_API_URL }}
-          filePath: server/package.json, server/package-lock.json
+          filePath: package.json, package-lock.json
           # filePath: server/package-lock.json
           severity: medium
           fail: true
