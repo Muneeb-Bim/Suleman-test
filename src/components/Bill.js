@@ -188,8 +188,6 @@ const editItems= (index)=> {
               {item.uprice}
               <h5>Product Quantity:</h5>
               {item.pquantity}
-              <h5>Product Quantity:</h5>
-              {item.pquantity}
               <hr></hr>
 
             </div>
